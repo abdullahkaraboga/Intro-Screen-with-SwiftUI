@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B22C083295A316900564D8D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B22C082295A316900564D8D /* Lottie */; };
+		7B22C085295A320D00564D8D /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B22C084295A320D00564D8D /* OnboardingScreen.swift */; };
 		7B667DC7295883C700F47E03 /* IntroScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DC6295883C700F47E03 /* IntroScreenApp.swift */; };
 		7B667DC9295883C700F47E03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DC8295883C700F47E03 /* ContentView.swift */; };
 		7B667DCB295883CC00F47E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B667DCA295883CC00F47E03 /* Assets.xcassets */; };
@@ -16,6 +18,10 @@
 		7B667DDD295883CD00F47E03 /* IntroScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DDC295883CD00F47E03 /* IntroScreenTests.swift */; };
 		7B667DE7295883CD00F47E03 /* IntroScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DE6295883CD00F47E03 /* IntroScreenUITests.swift */; };
 		7B667DE9295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DE8295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift */; };
+		7BDE60D0295A260F00604B30 /* cat-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CD295A260F00604B30 /* cat-2.json */; };
+		7BDE60D1295A260F00604B30 /* cat-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CE295A260F00604B30 /* cat-1.json */; };
+		7BDE60D2295A260F00604B30 /* cat-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CF295A260F00604B30 /* cat-3.json */; };
+		7BDE60D9295A279D00604B30 /* OnboradingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE60D8295A279D00604B30 /* OnboradingItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B22C084295A320D00564D8D /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		7B667DC3295883C700F47E03 /* IntroScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B667DC6295883C700F47E03 /* IntroScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenApp.swift; sourceTree = "<group>"; };
 		7B667DC8295883C700F47E03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,10 @@
 		7B667DE2295883CD00F47E03 /* IntroScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B667DE6295883CD00F47E03 /* IntroScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenUITests.swift; sourceTree = "<group>"; };
 		7B667DE8295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BDE60CD295A260F00604B30 /* cat-2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-2.json"; sourceTree = "<group>"; };
+		7BDE60CE295A260F00604B30 /* cat-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-1.json"; sourceTree = "<group>"; };
+		7BDE60CF295A260F00604B30 /* cat-3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-3.json"; sourceTree = "<group>"; };
+		7BDE60D8295A279D00604B30 /* OnboradingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboradingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B22C083295A316900564D8D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,9 @@
 		7B667DBA295883C700F47E03 = {
 			isa = PBXGroup;
 			children = (
+				7BDE60CE295A260F00604B30 /* cat-1.json */,
+				7BDE60CD295A260F00604B30 /* cat-2.json */,
+				7BDE60CF295A260F00604B30 /* cat-3.json */,
 				7B667DC5295883C700F47E03 /* IntroScreen */,
 				7B667DDB295883CD00F47E03 /* IntroScreenTests */,
 				7B667DE5295883CD00F47E03 /* IntroScreenUITests */,
@@ -98,6 +113,8 @@
 		7B667DC5295883C700F47E03 /* IntroScreen */ = {
 			isa = PBXGroup;
 			children = (
+				7BDE60D5295A271B00604B30 /* Model */,
+				7BDE60D4295A270300604B30 /* View */,
 				7B667DC6295883C700F47E03 /* IntroScreenApp.swift */,
 				7B667DC8295883C700F47E03 /* ContentView.swift */,
 				7B667DCA295883CC00F47E03 /* Assets.xcassets */,
@@ -133,6 +150,22 @@
 			path = IntroScreenUITests;
 			sourceTree = "<group>";
 		};
+		7BDE60D4295A270300604B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B22C084295A320D00564D8D /* OnboardingScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7BDE60D5295A271B00604B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE60D8295A279D00604B30 /* OnboradingItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +182,9 @@
 			dependencies = (
 			);
 			name = IntroScreen;
+			packageProductDependencies = (
+				7B22C082295A316900564D8D /* Lottie */,
+			);
 			productName = IntroScreen;
 			productReference = 7B667DC3295883C700F47E03 /* IntroScreen.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 7B667DBA295883C700F47E03;
+			packageReferences = (
+				7B22C081295A316900564D8D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 7B667DC4295883C700F47E03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDE60D0295A260F00604B30 /* cat-2.json in Resources */,
+				7BDE60D1295A260F00604B30 /* cat-1.json in Resources */,
+				7BDE60D2295A260F00604B30 /* cat-3.json in Resources */,
 				7B667DCE295883CC00F47E03 /* Preview Assets.xcassets in Resources */,
 				7B667DCB295883CC00F47E03 /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B667DD3295883CC00F47E03 /* IntroScreen.xcdatamodeld in Sources */,
+				7BDE60D9295A279D00604B30 /* OnboradingItem.swift in Sources */,
+				7B22C085295A320D00564D8D /* OnboardingScreen.swift in Sources */,
 				7B667DD0295883CC00F47E03 /* Persistence.swift in Sources */,
 				7B667DC9295883C700F47E03 /* ContentView.swift in Sources */,
 				7B667DC7295883C700F47E03 /* IntroScreenApp.swift in Sources */,
@@ -591,6 +635,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B22C081295A316900564D8D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B22C082295A316900564D8D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B22C081295A316900564D8D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B667DD1295883CC00F47E03 /* IntroScreen.xcdatamodeld */ = {
