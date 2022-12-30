@@ -18,9 +18,10 @@
 		7B667DDD295883CD00F47E03 /* IntroScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DDC295883CD00F47E03 /* IntroScreenTests.swift */; };
 		7B667DE7295883CD00F47E03 /* IntroScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DE6295883CD00F47E03 /* IntroScreenUITests.swift */; };
 		7B667DE9295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B667DE8295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift */; };
-		7BDE60D0295A260F00604B30 /* cat-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CD295A260F00604B30 /* cat-2.json */; };
-		7BDE60D1295A260F00604B30 /* cat-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CE295A260F00604B30 /* cat-1.json */; };
-		7BDE60D2295A260F00604B30 /* cat-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CF295A260F00604B30 /* cat-3.json */; };
+		7BD78DE2295F805D008505E7 /* new.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD78DE1295F805D008505E7 /* new.json */; };
+		7BDE60D0295A260F00604B30 /* cat2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CD295A260F00604B30 /* cat2.json */; };
+		7BDE60D1295A260F00604B30 /* cat1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CE295A260F00604B30 /* cat1.json */; };
+		7BDE60D2295A260F00604B30 /* cat3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE60CF295A260F00604B30 /* cat3.json */; };
 		7BDE60D9295A279D00604B30 /* OnboradingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE60D8295A279D00604B30 /* OnboradingItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +56,10 @@
 		7B667DE2295883CD00F47E03 /* IntroScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B667DE6295883CD00F47E03 /* IntroScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenUITests.swift; sourceTree = "<group>"; };
 		7B667DE8295883CD00F47E03 /* IntroScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7BDE60CD295A260F00604B30 /* cat-2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-2.json"; sourceTree = "<group>"; };
-		7BDE60CE295A260F00604B30 /* cat-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-1.json"; sourceTree = "<group>"; };
-		7BDE60CF295A260F00604B30 /* cat-3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat-3.json"; sourceTree = "<group>"; };
+		7BD78DE1295F805D008505E7 /* new.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = new.json; sourceTree = "<group>"; };
+		7BDE60CD295A260F00604B30 /* cat2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat2.json; sourceTree = "<group>"; };
+		7BDE60CE295A260F00604B30 /* cat1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat1.json; sourceTree = "<group>"; };
+		7BDE60CF295A260F00604B30 /* cat3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat3.json; sourceTree = "<group>"; };
 		7BDE60D8295A279D00604B30 /* OnboradingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboradingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,9 +92,10 @@
 		7B667DBA295883C700F47E03 = {
 			isa = PBXGroup;
 			children = (
-				7BDE60CE295A260F00604B30 /* cat-1.json */,
-				7BDE60CD295A260F00604B30 /* cat-2.json */,
-				7BDE60CF295A260F00604B30 /* cat-3.json */,
+				7BD78DE1295F805D008505E7 /* new.json */,
+				7BDE60CE295A260F00604B30 /* cat1.json */,
+				7BDE60CD295A260F00604B30 /* cat2.json */,
+				7BDE60CF295A260F00604B30 /* cat3.json */,
 				7B667DC5295883C700F47E03 /* IntroScreen */,
 				7B667DDB295883CD00F47E03 /* IntroScreenTests */,
 				7B667DE5295883CD00F47E03 /* IntroScreenUITests */,
@@ -276,9 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BDE60D0295A260F00604B30 /* cat-2.json in Resources */,
-				7BDE60D1295A260F00604B30 /* cat-1.json in Resources */,
-				7BDE60D2295A260F00604B30 /* cat-3.json in Resources */,
+				7BD78DE2295F805D008505E7 /* new.json in Resources */,
+				7BDE60D0295A260F00604B30 /* cat2.json in Resources */,
+				7BDE60D1295A260F00604B30 /* cat1.json in Resources */,
+				7BDE60D2295A260F00604B30 /* cat3.json in Resources */,
 				7B667DCE295883CC00F47E03 /* Preview Assets.xcassets in Resources */,
 				7B667DCB295883CC00F47E03 /* Assets.xcassets in Resources */,
 			);
